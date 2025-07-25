@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Creating a full README.md file content and saving it as a downloadable markdown file.
 
-## Getting Started
+readme_content = """# 🔐 SecureSight - CCTV Monitoring Dashboard
 
-First, run the development server:
+SecureSight is a modern and responsive CCTV incident monitoring dashboard built using **Next.js 15 App Router**, **Tailwind CSS**, and **TypeScript**. It provides security personnel with real-time incident playback, an incident list, a timeline visualization, and an interactive 24-hour video scrubber.
 
-```bash
+---
+
+## 🚀 Features
+
+- 📌 **Navbar** with navigation items (Dashboard, Cameras, Scenes, Incidents, Users)
+- 🎥 **Incident Player** – responsive video player with sample footage
+- 📋 **Incident List** – displays recent unresolved incidents
+- 🕓 **24-Hour SVG Timeline** – shows incident markers on an hourly ruler
+- 🔴 **Draggable Scrubber** – moves across the timeline and syncs video
+- 📱 **Fully Responsive** – adapts to all screen sizes
+
+---
+
+## 🧰 Tech Stack
+
+| Tech            | Description                           |
+|-----------------|---------------------------------------|
+| **Next.js 15**  | React framework with App Router       |
+| **Tailwind CSS**| Utility-first CSS for rapid styling   |
+| **TypeScript**  | Type-safe development in React        |
+| **SVG/Canvas**  | Used for 24-hour timeline rendering   |
+
+---
+
+## 📂 Project Structure
+
+\`\`\`
+src/
+├── app/
+│   ├── layout.tsx            # Root layout with global styles
+│   └── page.tsx              # Home page with player, list & timeline
+├── components/
+│   ├── Navbar.tsx            # Navigation header
+│   ├── IncidentPlayer.tsx    # Video playback component
+│   ├── IncidentList.tsx      # List of unresolved incidents
+│   └── IncidentTimeline.tsx  # 24-hour SVG timeline with scrubber
+public/
+└── sample.mp4                # Demo video file (place your own)
+\`\`\`
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+\`\`\`bash
+git clone https://github.com/your-username/securesight-dashboard.git
+cd securesight-dashboard
+\`\`\`
+
+### 2. Install Dependencies
+
+\`\`\`bash
+npm install
+\`\`\`
+
+
+### 3. Start the Development Server
+
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshot
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+\`\`\`
+preview.JPG
+\`\`\`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Preview](preview.JPG)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📌 Roadmap / Future Enhancements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Add playback speed controls
+- [ ] Allow AI tagging of incidents
+- [ ] Add a filter panel by camera/date/type
+- [ ] Add backend support (Supabase, Firebase, etc.)
+- [ ] Integrate WebSockets for live monitoring
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙋‍♂️ Author
+
+**Your Name**  
+🔗 [LinkedIn](https://www.linkedin.com/in/pratiksha-hindule-1372b015a/)  
+📧 pratikshahindule48@gmail.com
+
+---
+

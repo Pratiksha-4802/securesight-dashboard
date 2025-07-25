@@ -1,0 +1,26 @@
+/* styles/Navbar.module.css */
+.navbar {
+  background-color: #0b2a6d; /* dark blue */
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.navbar span {
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+
+  
