@@ -41,7 +41,7 @@ src/
 │   ├── IncidentList.tsx      # List of unresolved incidents
 │   └── IncidentTimeline.tsx  # 24-hour SVG timeline with scrubber
 public/
-└── sample.mp4                # Demo video file (place your own)
+└── sample.mp4                # Demo video file (created by AI)
 \`\`\`
 
 ---
@@ -51,7 +51,7 @@ public/
 ### 1. Clone the Repository
 
 \`\`\`bash
-git clone https://github.com/your-username/securesight-dashboard.git
+git clone https://github.com/Pratiksha-4802/securesight-dashboard.git
 cd securesight-dashboard
 \`\`\`
 
@@ -79,7 +79,7 @@ Visit: [http://localhost:3000](http://localhost:3000)
 preview.JPG
 \`\`\`
 
-![Preview](preview.JPG)
+![Preview](public/preview.JPG)
 
 ---
 
